@@ -1,7 +1,7 @@
 on: 
   workflow_dispatch:
   schedule:
-    - cron:  '30 * * * *'
+    - cron:  '11,12,30 * * * *'
 
 jobs:
   build:
