@@ -1,10 +1,4 @@
 proxies:
-    - name: 🇩🇪  secure hosting AS14061 Hessen Digitalocean, LLC 165.22.73.126
-      server: 165.22.73.126
-      port: "23335"
-      type: ss
-      cipher: aes-256-cfb
-      password: 7d99ae502227454ea998d71e4b62a388
     - name: 🇩🇪  secure hosting AS24961 Myloc Managed IT Ag 93.186.201.158
       server: 93.186.201.158
       port: "810"
@@ -157,10 +151,10 @@ proxies:
       password: bf7v334KKDV3YDhH
     - name: 🇳🇱unsecure hosting AS56630 Amsterdam Melbikomas Uab 213.183.51.172
       server: 213.183.51.172
-      port: "9073"
+      port: "9088"
       type: ss
       cipher: aes-256-cfb
-      password: daFYagqDdBdA6VTX
+      password: f8npKgNzdkss2ytn
     - name: 🇳🇱unsecure hosting AS56630 Melbikomas Uab 213.183.59.185
       server: 213.183.59.185
       port: "9098"
