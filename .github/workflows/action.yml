@@ -13,7 +13,7 @@ jobs:
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
     - name: Create local changes
       run: |
-        ./sspool > sspool.surge.conf
+        ./sspool
     - name: Commit files
       run: |
         git add .
