@@ -127,16 +127,22 @@ proxies:
       password: c3NtHJ5ujV2tGDfj
     - name: 🇳🇱  secure hosting AS56630 Melbikomas Uab 213.183.59.206
       server: 213.183.59.206
-      port: "9094"
+      port: "9088"
       type: ss
       cipher: aes-256-cfb
-      password: rpgbNnU9rDDU4aWZ
+      password: f8npKgNzdkss2ytn
     - name: 🇳🇱  secure hosting AS56630 Melbikomas Uab 213.183.59.211
       server: 213.183.59.211
       port: "9010"
       type: ss
       cipher: aes-256-cfb
       password: f63gg8EruDnUrmz4
+    - name: 🇳🇱  secure hosting AS56630 Melbikomas Uab 213.183.59.214
+      server: 213.183.59.214
+      port: "9027"
+      type: ss
+      cipher: aes-256-cfb
+      password: EXN3S3eQpjE7EJu8
     - name: 🇳🇱  secure hosting AS63023 Amsterdam GTHost 172.99.188.71
       server: 172.99.188.71
       port: "8882"
@@ -167,12 +173,6 @@ proxies:
       type: ss
       cipher: aes-256-cfb
       password: aLpQtfEZe445QyHk
-    - name: 🇳🇱unsecure hosting AS56630 Melbikomas Uab 213.183.59.190
-      server: 213.183.59.190
-      port: "9045"
-      type: ss
-      cipher: aes-256-cfb
-      password: Lp27rqyJq72bZsqX
     - name: 🇳🇱unsecure hosting AS56630 Melbikomas Uab 213.183.59.229
       server: 213.183.59.229
       port: "9084"
@@ -275,12 +275,6 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: G!yBwPWH3Vao
-    - name: 🇸🇬unsecure hosting AS14061 Digitalocean, LLC 165.232.169.142
-      server: 165.232.169.142
-      port: "29332"
-      type: ss
-      cipher: aes-256-cfb
-      password: 1e5111699c45496da84112f35db665c4
     - name: 🇸🇬unsecure hosting AS8849 Melbikomas Uab 103.172.116.9
       server: 103.172.116.9
       port: "9098"
