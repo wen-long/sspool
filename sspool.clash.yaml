@@ -5,6 +5,12 @@ proxies:
       type: ss
       cipher: aes-256-cfb
       password: 7d99ae502227454ea998d71e4b62a388
+    - name: 🇩🇪  secure hosting AS24940 Bayern Hetzner Online GmbH 49.12.203.80
+      server: 49.12.203.80
+      port: "40960"
+      type: ss
+      cipher: aes-256-gcm
+      password: 6kA7b3f9Aw2508erQ3W7D4
     - name: 🇩🇪  secure hosting AS24961 Myloc Managed IT Ag 93.186.201.158
       server: 93.186.201.158
       port: "810"
@@ -125,18 +131,18 @@ proxies:
       type: ss
       cipher: aes-256-cfb
       password: c3NtHJ5ujV2tGDfj
+    - name: 🇳🇱  secure hosting AS56630 Melbikomas Uab 213.183.59.177
+      server: 213.183.59.177
+      port: "9057"
+      type: ss
+      cipher: aes-256-cfb
+      password: wjTugX3ZtHMB9c3Z
     - name: 🇳🇱  secure hosting AS56630 Melbikomas Uab 213.183.59.206
       server: 213.183.59.206
-      port: "9088"
+      port: "9050"
       type: ss
       cipher: aes-256-cfb
-      password: f8npKgNzdkss2ytn
-    - name: 🇳🇱  secure hosting AS56630 Melbikomas Uab 213.183.59.211
-      server: 213.183.59.211
-      port: "9010"
-      type: ss
-      cipher: aes-256-cfb
-      password: f63gg8EruDnUrmz4
+      password: FG5ddLsMPbV5CutE
     - name: 🇳🇱  secure hosting AS56630 Melbikomas Uab 213.183.59.214
       server: 213.183.59.214
       port: "9027"
@@ -173,6 +179,12 @@ proxies:
       type: ss
       cipher: aes-256-cfb
       password: aLpQtfEZe445QyHk
+    - name: 🇳🇱unsecure hosting AS56630 Melbikomas Uab 213.183.59.218
+      server: 213.183.59.218
+      port: "9040"
+      type: ss
+      cipher: aes-256-cfb
+      password: p9z5BVADH2YFs3MN
     - name: 🇳🇱unsecure hosting AS56630 Melbikomas Uab 213.183.59.229
       server: 213.183.59.229
       port: "9084"
