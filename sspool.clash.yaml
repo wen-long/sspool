@@ -1,4 +1,10 @@
 proxies:
+    - name: 🇩🇪  secure hosting AS14061 Hessen Digitalocean, LLC 165.22.73.126
+      server: 165.22.73.126
+      port: "23335"
+      type: ss
+      cipher: aes-256-cfb
+      password: 7d99ae502227454ea998d71e4b62a388
     - name: 🇩🇪  secure hosting AS24961 Myloc Managed IT Ag 93.186.201.158
       server: 93.186.201.158
       port: "810"
@@ -101,6 +107,12 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: kDWvXYZoTBcGkC4
+    - name: 🇳🇱  secure hosting AS56630 Amsterdam Melbikomas Uab 185.246.155.29
+      server: 185.246.155.29
+      port: "9041"
+      type: ss
+      cipher: aes-256-cfb
+      password: U6qnYRhfyDmn8sgn
     - name: 🇳🇱  secure hosting AS56630 Amsterdam Melbikomas Uab 213.183.51.171
       server: 213.183.51.171
       port: "9084"
@@ -119,6 +131,12 @@ proxies:
       type: ss
       cipher: aes-256-cfb
       password: BwcAUZk8hUFAkDGN
+    - name: 🇳🇱  secure hosting AS56630 Melbikomas Uab 213.183.59.214
+      server: 213.183.59.214
+      port: "9070"
+      type: ss
+      cipher: aes-256-cfb
+      password: bf7v334KKDV3YDhH
     - name: 🇳🇱  secure hosting AS63023 Amsterdam GTHost 172.99.188.71
       server: 172.99.188.71
       port: "8882"
@@ -131,6 +149,12 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: faBAoD54k87UJG7
+    - name: 🇳🇱unsecure hosting AS56630 Amsterdam Melbikomas Uab 185.246.155.35
+      server: 185.246.155.35
+      port: "9070"
+      type: ss
+      cipher: aes-256-cfb
+      password: bf7v334KKDV3YDhH
     - name: 🇳🇱unsecure hosting AS56630 Amsterdam Melbikomas Uab 213.183.51.172
       server: 213.183.51.172
       port: "9088"
@@ -145,28 +169,16 @@ proxies:
       password: aLpQtfEZe445QyHk
     - name: 🇳🇱unsecure hosting AS56630 Melbikomas Uab 213.183.59.218
       server: 213.183.59.218
-      port: "9098"
+      port: "9053"
       type: ss
       cipher: aes-256-cfb
-      password: aLpQtfEZe445QyHk
-    - name: 🇳🇱unsecure hosting AS56630 Melbikomas Uab 213.183.59.229
-      server: 213.183.59.229
-      port: "9084"
-      type: ss
-      cipher: aes-256-cfb
-      password: c3NtHJ5ujV2tGDfj
+      password: SBM7R883jBmnqe6C
     - name: 🇳🇱unsecure isp AS12876 Haarlem ONLINE S.A.S. 51.15.0.113
       server: 51.15.0.113
       port: "989"
       type: ss
       cipher: aes-256-cfb
       password: f8f7aCzcPKbsF8p3
-    - name: 🇳🇱unsecure isp AS9009 Amsterdam M247 Ltd 37.120.192.158
-      server: 37.120.192.158
-      port: "810"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: G!yBwPWH3Vao
     - name: 🇸🇬  secure hosting AS16276 OVH SAS 51.79.157.58
       server: 51.79.157.58
       port: "50004"
@@ -205,16 +217,10 @@ proxies:
       password: wfLC2y7rzZyCmuyt
     - name: 🇸🇬  secure hosting AS8849 Melbikomas Uab 103.172.116.8
       server: 103.172.116.8
-      port: "9084"
+      port: "9088"
       type: ss
       cipher: aes-256-cfb
-      password: c3NtHJ5ujV2tGDfj
-    - name: 🇸🇬  secure isp AS9009 Singapore M247 Ltd 194.124.35.23
-      server: 194.124.35.23
-      port: "808"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: G!yBwPWH3Vao
+      password: f8npKgNzdkss2ytn
     - name: 🇸🇬  secure isp AS9009 Singapore M247 Ltd 217.197.161.136
       server: 217.197.161.136
       port: "812"
@@ -223,12 +229,6 @@ proxies:
       password: G!yBwPWH3Vao
     - name: 🇸🇬  secure isp AS9009 Singapore M247 Ltd 217.197.161.138
       server: 217.197.161.138
-      port: "812"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: G!yBwPWH3Vao
-    - name: 🇸🇬  secure isp AS9009 Singapore M247 Ltd 217.197.161.166
-      server: 217.197.161.166
       port: "812"
       type: ss
       cipher: chacha20-ietf-poly1305
@@ -251,18 +251,18 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: G!yBwPWH3Vao
+    - name: 🇸🇬unsecure hosting AS14061 Digitalocean, LLC 165.232.169.142
+      server: 165.232.169.142
+      port: "29332"
+      type: ss
+      cipher: aes-256-cfb
+      password: 1e5111699c45496da84112f35db665c4
     - name: 🇸🇬unsecure hosting AS8849 Melbikomas Uab 103.172.116.9
       server: 103.172.116.9
       port: "9098"
       type: ss
       cipher: aes-256-cfb
       password: aLpQtfEZe445QyHk
-    - name: 🇸🇬unsecure isp AS9009 Singapore M247 Ltd 217.197.161.164
-      server: 217.197.161.164
-      port: "811"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: G!yBwPWH3Vao
     - name: 🇺🇸  secure hosting AS202422 Illinois G-core Labs S.A. 92.38.176.81
       server: 92.38.176.81
       port: "811"
@@ -353,18 +353,6 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: Ultr@r00t_2017
-    - name: 🇺🇸unsecure hosting AS25820 California It7 Networks INC 104.243.25.95
-      server: 104.243.25.95
-      port: "253"
-      type: ss
-      cipher: aes-256-cfb
-      password: bwhskrskr03
-    - name: 🇺🇸unsecure hosting AS25820 California It7 Networks INC 104.243.30.252
-      server: 104.243.30.252
-      port: "246"
-      type: ss
-      cipher: aes-256-cfb
-      password: bwhskrskr03
     - name: 🇺🇸unsecure hosting AS25820 California It7 Networks INC 172.96.192.58
       server: 172.96.192.58
       port: "254"
@@ -614,12 +602,6 @@ proxies:
     - name: 🇺🇸unsecure isp AS9009 Arizona M247 Ltd 37.120.219.218
       server: 37.120.219.218
       port: "812"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: G!yBwPWH3Vao
-    - name: 🇺🇸unsecure isp AS9009 Nevada M247 Ltd 37.120.147.230
-      server: 37.120.147.230
-      port: "810"
       type: ss
       cipher: chacha20-ietf-poly1305
       password: G!yBwPWH3Vao
