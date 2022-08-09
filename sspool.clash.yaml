@@ -5,6 +5,12 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: Ultr@r00t_2017
+    - name: 🇩🇪  secure hosting AS24940 Hetzner Online GmbH 49.12.203.80
+      server: 49.12.203.80
+      port: "40960"
+      type: ss
+      cipher: aes-256-gcm
+      password: 6kA7b3f9Aw2508erQ3W7D4
     - name: 🇩🇪  secure hosting AS24961 Myloc Managed IT Ag 93.186.201.158
       server: 93.186.201.158
       port: "810"
@@ -155,12 +161,6 @@ proxies:
       type: ss
       cipher: aes-256-cfb
       password: c3NtHJ5ujV2tGDfj
-    - name: 🇳🇱  secure hosting AS56630 Melbikomas Uab 213.183.59.177
-      server: 213.183.59.177
-      port: "9057"
-      type: ss
-      cipher: aes-256-cfb
-      password: wjTugX3ZtHMB9c3Z
     - name: 🇳🇱  secure hosting AS56630 Melbikomas Uab 213.183.59.191
       server: 213.183.59.191
       port: "9073"
@@ -281,6 +281,12 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: Ultr@r00t_2017
+    - name: 🇺🇸  secure hosting AS25820 California It7 Networks INC 97.64.31.80
+      server: 97.64.31.80
+      port: "247"
+      type: ss
+      cipher: aes-256-cfb
+      password: bwhskrskr03
     - name: 🇺🇸  secure hosting AS63023 California GTHost 167.88.61.14
       server: 167.88.61.14
       port: "9102"
@@ -302,12 +308,6 @@ proxies:
     - name: 🇺🇸  secure hosting AS63023 California GTHost 169.197.142.187
       server: 169.197.142.187
       port: "9102"
-      type: ss
-      cipher: aes-256-gcm
-      password: e4FCWrgpkji3QY
-    - name: 🇺🇸  secure hosting AS63023 California GTHost 38.114.114.49
-      server: 38.114.114.49
-      port: "9101"
       type: ss
       cipher: aes-256-gcm
       password: e4FCWrgpkji3QY
@@ -437,9 +437,33 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: G!yBwPWH3Vao
+    - name: 🇺🇸unsecure hosting AS25820 California It7 Networks INC 104.243.25.95
+      server: 104.243.25.95
+      port: "253"
+      type: ss
+      cipher: aes-256-cfb
+      password: bwhskrskr03
+    - name: 🇺🇸unsecure hosting AS25820 California It7 Networks INC 104.243.30.252
+      server: 104.243.30.252
+      port: "246"
+      type: ss
+      cipher: aes-256-cfb
+      password: bwhskrskr03
     - name: 🇺🇸unsecure hosting AS25820 California It7 Networks INC 144.168.60.70
       server: 144.168.60.70
       port: "252"
+      type: ss
+      cipher: aes-256-cfb
+      password: bwhskrskr03
+    - name: 🇺🇸unsecure hosting AS25820 California It7 Networks INC 172.96.192.100
+      server: 172.96.192.100
+      port: "246"
+      type: ss
+      cipher: aes-256-cfb
+      password: bwhskrskr05
+    - name: 🇺🇸unsecure hosting AS25820 California It7 Networks INC 172.96.192.58
+      server: 172.96.192.58
+      port: "254"
       type: ss
       cipher: aes-256-cfb
       password: bwhskrskr03
@@ -449,9 +473,9 @@ proxies:
       type: ss
       cipher: aes-256-cfb
       password: bwhskrskr05
-    - name: 🇺🇸unsecure hosting AS25820 California It7 Networks INC 95.169.4.174
-      server: 95.169.4.174
-      port: "254"
+    - name: 🇺🇸unsecure hosting AS25820 California It7 Networks INC 93.179.112.70
+      server: 93.179.112.70
+      port: "253"
       type: ss
       cipher: aes-256-cfb
       password: bwhskrskr06
@@ -491,6 +515,12 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: PCnnH6SQSnfoS27
+    - name: 🇺🇸unsecure hosting AS63023 California GTHost 38.114.114.49
+      server: 38.114.114.49
+      port: "9101"
+      type: ss
+      cipher: aes-256-gcm
+      password: e4FCWrgpkji3QY
     - name: 🇺🇸unsecure hosting AS63023 California GTHost 38.114.114.67
       server: 38.114.114.67
       port: "9101"
