@@ -17,12 +17,6 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: 6kA7b3f9Aw2508erQ3W7D4
-    - name: 🇩🇪  secure hosting AS24961 Myloc Managed IT Ag 93.186.201.158
-      server: 93.186.201.158
-      port: "810"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: G!yBwPWH3Vao
     - name: 🇩🇪  secure hosting AS61003 Hessen Globaltelehost Corp. 193.108.118.30
       server: 193.108.118.30
       port: "5500"
@@ -35,12 +29,6 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: PCnnH6SQSnfoS27
-    - name: 🇩🇪unsecure hosting AS24961 Myloc Managed IT Ag 85.114.138.92
-      server: 85.114.138.92
-      port: "809"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: G!yBwPWH3Vao
     - name: 🇩🇪unsecure hosting AS24961 Myloc Managed IT Ag 93.186.201.124
       server: 93.186.201.124
       port: "812"
@@ -79,10 +67,10 @@ proxies:
       password: cdBIDV42DCwnfIN
     - name: 🇯🇵  secure hosting AS18978 Tokyo Enzu INC 85.208.108.20
       server: 85.208.108.20
-      port: "9102"
+      port: "7002"
       type: ss
       cipher: aes-256-gcm
-      password: e4FCWrgpkji3QY
+      password: RexnBgU7EV5ADxG
     - name: 🇯🇵  secure hosting AS18978 Tokyo Enzu INC 85.208.108.21
       server: 85.208.108.21
       port: "9102"
@@ -119,18 +107,12 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: G!yBwPWH3Vao
-    - name: 🇯🇵  secure isp AS9009 Tokyo M247 Ltd 89.31.126.150
-      server: 89.31.126.150
-      port: "812"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: G!yBwPWH3Vao
     - name: 🇯🇵unsecure hosting AS18978 Tokyo Enzu INC 85.208.108.18
       server: 85.208.108.18
-      port: "8888"
+      port: "8118"
       type: ss
       cipher: aes-256-gcm
-      password: Y6R9pAtvxxzmGC
+      password: cdBIDV42DCwnfIN
     - name: 🇯🇵unsecure hosting AS18978 Tokyo Enzu INC 85.208.108.90
       server: 85.208.108.90
       port: "8882"
@@ -139,28 +121,52 @@ proxies:
       password: kDWvXYZoTBcGkC4
     - name: 🇳🇱  secure hosting AS56630 Amsterdam Melbikomas Uab 185.246.155.23
       server: 185.246.155.23
-      port: "9038"
+      port: "9037"
       type: ss
       cipher: aes-256-cfb
-      password: gYCYXfkUQEs2TaJQ
+      password: TN2YqghxeFDKZfLU
+    - name: 🇳🇱  secure hosting AS56630 Amsterdam Melbikomas Uab 185.246.155.29
+      server: 185.246.155.29
+      port: "9000"
+      type: ss
+      cipher: aes-256-cfb
+      password: a3GFYt36Sm82Vys9
     - name: 🇳🇱  secure hosting AS56630 Amsterdam Melbikomas Uab 185.246.155.35
       server: 185.246.155.35
-      port: "9070"
+      port: "9045"
       type: ss
       cipher: aes-256-cfb
-      password: bf7v334KKDV3YDhH
+      password: Lp27rqyJq72bZsqX
     - name: 🇳🇱  secure hosting AS56630 Amsterdam Melbikomas Uab 213.183.51.171
       server: 213.183.51.171
-      port: "9084"
+      port: "9097"
       type: ss
       cipher: aes-256-cfb
-      password: c3NtHJ5ujV2tGDfj
+      password: Sn5B7jTqr76aCJT8
     - name: 🇳🇱  secure hosting AS56630 Melbikomas Uab 213.183.59.190
       server: 213.183.59.190
-      port: "9003"
+      port: "9030"
       type: ss
       cipher: aes-256-cfb
-      password: JdmRK9gMEqFgs8nP
+      password: GeregetR8cvQHzYr
+    - name: 🇳🇱  secure hosting AS56630 Melbikomas Uab 213.183.59.191
+      server: 213.183.59.191
+      port: "9073"
+      type: ss
+      cipher: aes-256-cfb
+      password: daFYagqDdBdA6VTX
+    - name: 🇳🇱  secure hosting AS56630 Melbikomas Uab 213.183.59.206
+      server: 213.183.59.206
+      port: "9094"
+      type: ss
+      cipher: aes-256-cfb
+      password: rpgbNnU9rDDU4aWZ
+    - name: 🇳🇱  secure hosting AS56630 Melbikomas Uab 213.183.59.211
+      server: 213.183.59.211
+      port: "9088"
+      type: ss
+      cipher: aes-256-cfb
+      password: f8npKgNzdkss2ytn
     - name: 🇳🇱  secure hosting AS56630 Melbikomas Uab 213.183.59.229
       server: 213.183.59.229
       port: "9084"
@@ -175,40 +181,46 @@ proxies:
       password: faBAoD54k87UJG7
     - name: 🇳🇱unsecure hosting AS56630 Amsterdam Melbikomas Uab 213.183.51.172
       server: 213.183.51.172
-      port: "9088"
+      port: "9073"
       type: ss
       cipher: aes-256-cfb
-      password: f8npKgNzdkss2ytn
+      password: daFYagqDdBdA6VTX
     - name: 🇳🇱unsecure hosting AS56630 Melbikomas Uab 213.183.59.185
       server: 213.183.59.185
-      port: "9064"
+      port: "9070"
       type: ss
       cipher: aes-256-cfb
-      password: cp8pRSUAyLhTfVWH
+      password: bf7v334KKDV3YDhH
+    - name: 🇳🇱unsecure hosting AS56630 Melbikomas Uab 213.183.59.218
+      server: 213.183.59.218
+      port: "9070"
+      type: ss
+      cipher: aes-256-cfb
+      password: bf7v334KKDV3YDhH
     - name: 🇳🇱unsecure hosting AS63023 Amsterdam GTHost 172.99.188.71
       server: 172.99.188.71
-      port: "9101"
+      port: "8888"
       type: ss
       cipher: aes-256-gcm
-      password: e4FCWrgpkji3QY
+      password: Y6R9pAtvxxzmGC
     - name: 🇳🇱unsecure isp AS12876 Haarlem ONLINE S.A.S. 51.15.0.113
       server: 51.15.0.113
       port: "989"
       type: ss
       cipher: aes-256-cfb
       password: f8f7aCzcPKbsF8p3
-    - name: 🇸🇬  secure hosting AS16276 OVH SAS 51.79.166.171
-      server: 51.79.166.171
-      port: "50004"
-      type: ss
-      cipher: aes-256-cfb
-      password: "4415934295"
     - name: 🇸🇬  secure hosting AS8849 Melbikomas Uab 103.172.116.10
       server: 103.172.116.10
-      port: "9094"
+      port: "9098"
       type: ss
       cipher: aes-256-cfb
-      password: rpgbNnU9rDDU4aWZ
+      password: aLpQtfEZe445QyHk
+    - name: 🇸🇬  secure hosting AS8849 Melbikomas Uab 103.172.116.6
+      server: 103.172.116.6
+      port: "9037"
+      type: ss
+      cipher: aes-256-cfb
+      password: TN2YqghxeFDKZfLU
     - name: 🇸🇬  secure hosting AS8849 Melbikomas Uab 103.172.116.7
       server: 103.172.116.7
       port: "9093"
@@ -221,27 +233,9 @@ proxies:
       type: ss
       cipher: aes-256-cfb
       password: f8npKgNzdkss2ytn
-    - name: 🇸🇬  secure hosting AS8849 Melbikomas Uab 103.172.116.9
-      server: 103.172.116.9
-      port: "9097"
-      type: ss
-      cipher: aes-256-cfb
-      password: Sn5B7jTqr76aCJT8
     - name: 🇸🇬  secure isp AS9009 Singapore M247 Ltd 217.197.160.117
       server: 217.197.160.117
       port: "810"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: G!yBwPWH3Vao
-    - name: 🇸🇬  secure isp AS9009 Singapore M247 Ltd 217.197.161.136
-      server: 217.197.161.136
-      port: "812"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: G!yBwPWH3Vao
-    - name: 🇸🇬  secure isp AS9009 Singapore M247 Ltd 217.197.161.138
-      server: 217.197.161.138
-      port: "812"
       type: ss
       cipher: chacha20-ietf-poly1305
       password: G!yBwPWH3Vao
@@ -251,12 +245,12 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: G!yBwPWH3Vao
-    - name: 🇸🇬  secure isp AS9009 Singapore M247 Ltd 81.90.189.41
-      server: 81.90.189.41
-      port: "811"
+    - name: 🇸🇬unsecure hosting AS14061 Digitalocean, LLC 165.232.169.142
+      server: 165.232.169.142
+      port: "29332"
       type: ss
-      cipher: chacha20-ietf-poly1305
-      password: G!yBwPWH3Vao
+      cipher: aes-256-cfb
+      password: 1e5111699c45496da84112f35db665c4
     - name: 🇺🇸  secure hosting AS63023 California GTHost 167.88.61.14
       server: 167.88.61.14
       port: "9102"
@@ -301,10 +295,10 @@ proxies:
       password: PCnnH6SQSnfoS27
     - name: 🇺🇸  secure hosting AS63023 Florida GTHost 38.91.107.37
       server: 38.91.107.37
-      port: "5003"
+      port: "7001"
       type: ss
       cipher: aes-256-gcm
-      password: g5MeD6Ft3CWlJId
+      password: RexnBgU7EV5ADxG
     - name: 🇺🇸  secure hosting AS63023 Georgia GTHost 167.88.63.79
       server: 167.88.63.79
       port: "8881"
@@ -353,12 +347,6 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: PCnnH6SQSnfoS27
-    - name: 🇺🇸  secure hosting AS63023 New York GTHost 169.197.141.5
-      server: 169.197.141.5
-      port: "3306"
-      type: ss
-      cipher: aes-256-gcm
-      password: Y6R9pAtvxxzmGC
     - name: 🇺🇸  secure hosting AS63023 Texas GTHost 38.68.134.135
       server: 38.68.134.135
       port: "809"
@@ -373,10 +361,10 @@ proxies:
       password: G!yBwPWH3Vao
     - name: 🇺🇸  secure hosting AS63023 Texas GTHost 38.68.134.85
       server: 38.68.134.85
-      port: "8119"
+      port: "8091"
       type: ss
       cipher: aes-256-gcm
-      password: cdBIDV42DCwnfIN
+      password: PCnnH6SQSnfoS27
     - name: 🇺🇸  secure hosting AS63023 Texas GTHost 38.68.135.19
       server: 38.68.135.19
       port: "9102"
@@ -389,12 +377,6 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: FoOiGlkAA9yPEGP
-    - name: 🇺🇸  secure hosting AS63023 Virginia GTHost 38.107.226.146
-      server: 38.107.226.146
-      port: "8091"
-      type: ss
-      cipher: aes-256-gcm
-      password: PCnnH6SQSnfoS27
     - name: 🇺🇸  secure hosting AS63023 Virginia GTHost 38.107.226.238
       server: 38.107.226.238
       port: "2376"
@@ -425,6 +407,12 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: PCnnH6SQSnfoS27
+    - name: 🇺🇸unsecure hosting AS14061 California Digitalocean, LLC 137.184.93.209
+      server: 137.184.93.209
+      port: "10365"
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: 9682edd6-89e6-4e6a-b31d-271089771d87
     - name: 🇺🇸unsecure hosting AS14061 California Digitalocean, LLC 138.68.248.130
       server: 138.68.248.130
       port: "811"
@@ -503,6 +491,12 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: Y6R9pAtvxxzmGC
+    - name: 🇺🇸unsecure hosting AS63023 California GTHost 38.75.136.34
+      server: 38.75.136.34
+      port: "9101"
+      type: ss
+      cipher: aes-256-gcm
+      password: e4FCWrgpkji3QY
     - name: 🇺🇸unsecure hosting AS63023 Florida GTHost 38.91.107.225
       server: 38.91.107.225
       port: "812"
@@ -511,10 +505,16 @@ proxies:
       password: G!yBwPWH3Vao
     - name: 🇺🇸unsecure hosting AS63023 Georgia GTHost 167.88.63.59
       server: 167.88.63.59
-      port: "8881"
+      port: "6697"
       type: ss
       cipher: aes-256-gcm
-      password: kDWvXYZoTBcGkC4
+      password: TEzjfAYq2IjtuoS
+    - name: 🇺🇸unsecure hosting AS63023 Georgia GTHost 38.121.43.204
+      server: 38.121.43.204
+      port: "8009"
+      type: ss
+      cipher: aes-256-gcm
+      password: XKFKl2rULjIp74
     - name: 🇺🇸unsecure hosting AS63023 Illinois GTHost 162.251.61.221
       server: 162.251.61.221
       port: "809"
@@ -529,28 +529,16 @@ proxies:
       password: PCnnH6SQSnfoS27
     - name: 🇺🇸unsecure hosting AS63023 New York GTHost 142.202.48.7
       server: 142.202.48.7
-      port: "8091"
+      port: "7306"
       type: ss
       cipher: aes-256-gcm
-      password: PCnnH6SQSnfoS27
-    - name: 🇺🇸unsecure hosting AS63023 New York GTHost 169.197.141.187
-      server: 169.197.141.187
-      port: "8881"
-      type: ss
-      cipher: aes-256-gcm
-      password: kDWvXYZoTBcGkC4
+      password: FoOiGlkAA9yPEGP
     - name: 🇺🇸unsecure hosting AS63023 New York GTHost 38.91.100.207
       server: 38.91.100.207
       port: "8090"
       type: ss
       cipher: aes-256-gcm
       password: PCnnH6SQSnfoS27
-    - name: 🇺🇸unsecure hosting AS63023 New York GTHost 38.91.101.159
-      server: 38.91.101.159
-      port: "8118"
-      type: ss
-      cipher: aes-256-gcm
-      password: cdBIDV42DCwnfIN
     - name: 🇺🇸unsecure hosting AS63023 Texas GTHost 167.88.62.62
       server: 167.88.62.62
       port: "8090"
@@ -581,6 +569,12 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: e4FCWrgpkji3QY
+    - name: 🇺🇸unsecure hosting AS63023 Virginia GTHost 38.107.226.146
+      server: 38.107.226.146
+      port: "8091"
+      type: ss
+      cipher: aes-256-gcm
+      password: PCnnH6SQSnfoS27
     - name: 🇺🇸unsecure hosting AS63023 Virginia GTHost 38.86.135.169
       server: 38.86.135.169
       port: "9101"
@@ -593,18 +587,12 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: e4FCWrgpkji3QY
-    - name: 🇺🇸unsecure hosting AS63023 Washington GTHost 38.143.66.64
-      server: 38.143.66.64
-      port: "5601"
-      type: ss
-      cipher: aes-256-gcm
-      password: Y6R9pAtvxxzmGC
     - name: 🇺🇸unsecure hosting AS63023 Washington GTHost 38.143.66.99
       server: 38.143.66.99
-      port: "9102"
+      port: "8118"
       type: ss
       cipher: aes-256-gcm
-      password: e4FCWrgpkji3QY
+      password: cdBIDV42DCwnfIN
     - name: 🇺🇸unsecure isp AS9009 Arizona M247 Ltd 37.120.219.218
       server: 37.120.219.218
       port: "812"
