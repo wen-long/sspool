@@ -23,7 +23,7 @@ jobs:
       run: |
         ./sspool
     - name: rm
-      run: rm sspool sspool.gpg
+      run: rm sspool sspool.gpg*
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: commit by action
