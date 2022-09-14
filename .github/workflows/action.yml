@@ -14,6 +14,8 @@ jobs:
       run: wget https://bafybeigtoit5o6xiaeodcsnvzxylgqd655xdmxedxhbcvj7zur3z7yhqem.ipfs.w3s.link/sspool.gpg
     - name: decrypt bin
       run: gpg --quiet --batch --yes --decrypt --passphrase="${{ secrets.GPG_PASSPHRASE }}" --output sspool sspool.gpg
+    - name: chmod
+      run: chmod +x sspool
     - uses: actions/checkout@v2
       with:
         ref: ${{ github.head_ref }}
