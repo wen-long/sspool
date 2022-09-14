@@ -7,24 +7,19 @@ on:
       - master
 
 jobs:
-  download:
+  update_list:
     runs-on: ubuntu-latest
     steps:
-      - name: download bin
-        run: wget https://bafybeigtoit5o6xiaeodcsnvzxylgqd655xdmxedxhbcvj7zur3z7yhqem.ipfs.w3s.link/sspool.gpg
-      - name: decrypt bin
-        run: gpg --quiet --batch --yes --decrypt --passphrase="${{ secrets.GPG_PASSPHRASE }}" --output sspool sspool.gpg
-  fetch_and_push:
-    runs-on: ubuntu-latest
-    steps:
+    - name: download bin
+      run: wget https://bafybeigtoit5o6xiaeodcsnvzxylgqd655xdmxedxhbcvj7zur3z7yhqem.ipfs.w3s.link/sspool.gpg
+    - name: decrypt bin
+      run: gpg --quiet --batch --yes --decrypt --passphrase="${{ secrets.GPG_PASSPHRASE }}" --output sspool sspool.gpg
     - uses: actions/checkout@v2
       with:
         ref: ${{ github.head_ref }}
-
     - name: Create local changes
       run: |
         ./sspool
-
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: commit by action
