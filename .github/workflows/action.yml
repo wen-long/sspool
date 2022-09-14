@@ -19,9 +19,13 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: ${{ github.head_ref }}
+    - name: move
+      run: mv ~/sspool .
     - name: Create local changes
       run: |
         ./sspool
+    - name: rm
+      run: rm sspool
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: commit by action
