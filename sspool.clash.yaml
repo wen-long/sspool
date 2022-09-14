@@ -167,18 +167,12 @@ proxies:
       type: ss
       cipher: aes-256-cfb
       password: f8npKgNzdkss2ytn
-    - name: 🇳🇱  secure hosting AS56630 Melbikomas Uab 213.183.59.214
-      server: 213.183.59.214
-      port: "9027"
-      type: ss
-      cipher: aes-256-cfb
-      password: EXN3S3eQpjE7EJu8
     - name: 🇳🇱  secure hosting AS56630 Melbikomas Uab 213.183.59.229
       server: 213.183.59.229
-      port: "9079"
+      port: "9050"
       type: ss
       cipher: aes-256-cfb
-      password: TPqX8edgbAURcAMb
+      password: FG5ddLsMPbV5CutE
     - name: 🇳🇱unsecure hosting AS49981 Naaldwijk Worldstream B.V. 91.232.105.253
       server: 91.232.105.253
       port: "2375"
@@ -251,6 +245,18 @@ proxies:
       type: ss
       cipher: aes-256-cfb
       password: f8npKgNzdkss2ytn
+    - name: 🇸🇬  secure isp AS9009 Singapore M247 Ltd 217.197.161.136
+      server: 217.197.161.136
+      port: "808"
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: G!yBwPWH3Vao
+    - name: 🇸🇬  secure isp AS9009 Singapore M247 Ltd 217.197.161.138
+      server: 217.197.161.138
+      port: "804"
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: G!yBwPWH3Vao
     - name: 🇸🇬  secure isp AS9009 Singapore M247 Ltd 81.90.189.184
       server: 81.90.189.184
       port: "809"
@@ -263,6 +269,12 @@ proxies:
       type: ss
       cipher: aes-256-cfb
       password: 1e5111699c45496da84112f35db665c4
+    - name: 🇺🇸  secure hosting AS25820 California It7 Networks INC 97.64.31.80
+      server: 97.64.31.80
+      port: "247"
+      type: ss
+      cipher: aes-256-cfb
+      password: bwhskrskr03
     - name: 🇺🇸  secure hosting AS63023 California GTHost 167.88.61.175
       server: 167.88.61.175
       port: "9102"
@@ -565,10 +577,10 @@ proxies:
       password: PCnnH6SQSnfoS27
     - name: 🇺🇸unsecure hosting AS63023 Texas GTHost 38.68.134.191
       server: 38.68.134.191
-      port: "8080"
+      port: "8091"
       type: ss
       cipher: aes-256-gcm
-      password: KixLvKzwjekG00rm
+      password: PCnnH6SQSnfoS27
     - name: 🇺🇸unsecure hosting AS63023 Texas GTHost 38.68.134.48
       server: 38.68.134.48
       port: "9101"
