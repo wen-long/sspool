@@ -1,6 +1,24 @@
 proxies:
-    - name: 🇯🇵  secure hosting AS16509 Tokyo Amazon.com, Inc. 54.178.201.48
-      server: 54.178.201.48
+    - name: 🇯🇵  secure hosting AS16509 Tokyo Amazon.com, Inc. 13.230.148.231
+      server: 13.230.148.231
+      port: "443"
+      type: ss
+      cipher: aes-256-cfb
+      password: amazonskr05
+    - name: 🇯🇵  secure hosting AS16509 Tokyo Amazon.com, Inc. 18.179.15.166
+      server: 18.179.15.166
+      port: "443"
+      type: ss
+      cipher: aes-256-cfb
+      password: amazonskr05
+    - name: 🇯🇵  secure hosting AS16509 Tokyo Amazon.com, Inc. 52.69.145.191
+      server: 52.69.145.191
+      port: "443"
+      type: ss
+      cipher: aes-256-cfb
+      password: amazonskr05
+    - name: 🇯🇵  secure hosting AS16509 Tokyo Amazon.com, Inc. 54.64.196.45
+      server: 54.64.196.45
       port: "443"
       type: ss
       cipher: aes-256-cfb
@@ -41,20 +59,38 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: Y6R9pAtvxxzmGC
-    - name: 🇸🇬  secure hosting AS16509 Singapore Amazon.com, Inc. 18.141.13.226
-      server: 18.141.13.226
+    - name: 🇸🇬  secure hosting AS16509 Singapore Amazon.com, Inc. 18.136.205.181
+      server: 18.136.205.181
       port: "443"
       type: ss
       cipher: aes-256-cfb
       password: amazonskr05
-    - name: 🇸🇬  secure hosting AS16509 Singapore Amazon.com, Inc. 3.0.78.149
-      server: 3.0.78.149
+    - name: 🇸🇬  secure hosting AS16509 Singapore Amazon.com, Inc. 3.1.81.176
+      server: 3.1.81.176
       port: "443"
       type: ss
       cipher: aes-256-cfb
       password: amazonskr05
-    - name: 🇸🇬  secure hosting AS16509 Singapore Amazon.com, Inc. 54.179.30.188
-      server: 54.179.30.188
+    - name: 🇸🇬  secure hosting AS16509 Singapore Amazon.com, Inc. 54.169.16.186
+      server: 54.169.16.186
+      port: "443"
+      type: ss
+      cipher: aes-256-cfb
+      password: amazonskr05
+    - name: 🇸🇬  secure hosting AS16509 Singapore Amazon.com, Inc. 54.169.206.218
+      server: 54.169.206.218
+      port: "443"
+      type: ss
+      cipher: aes-256-cfb
+      password: amazonskr05
+    - name: 🇸🇬  secure hosting AS16509 Singapore Amazon.com, Inc. 54.169.68.211
+      server: 54.169.68.211
+      port: "443"
+      type: ss
+      cipher: aes-256-cfb
+      password: amazonskr05
+    - name: 🇸🇬  secure hosting AS16509 Singapore Amazon.com, Inc. 54.179.120.125
+      server: 54.179.120.125
       port: "443"
       type: ss
       cipher: aes-256-cfb
@@ -83,8 +119,26 @@ proxies:
       type: ss
       cipher: aes-256-cfb
       password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-    - name: 🇺🇸  secure hosting AS16509 Oregon Amazon.com, Inc. 18.236.78.139
-      server: 18.236.78.139
+    - name: 🇺🇸  secure hosting AS16509 Oregon Amazon.com, Inc. 34.209.123.93
+      server: 34.209.123.93
+      port: "443"
+      type: ss
+      cipher: aes-256-cfb
+      password: amazonskr05
+    - name: 🇺🇸  secure hosting AS16509 Oregon Amazon.com, Inc. 35.86.143.175
+      server: 35.86.143.175
+      port: "443"
+      type: ss
+      cipher: aes-256-cfb
+      password: amazonskr05
+    - name: 🇺🇸  secure hosting AS16509 Oregon Amazon.com, Inc. 52.32.130.136
+      server: 52.32.130.136
+      port: "443"
+      type: ss
+      cipher: aes-256-cfb
+      password: amazonskr05
+    - name: 🇺🇸  secure hosting AS16509 Oregon Amazon.com, Inc. 52.34.127.164
+      server: 52.34.127.164
       port: "443"
       type: ss
       cipher: aes-256-cfb
@@ -121,28 +175,22 @@ proxies:
       password: KixLvKzwjekG00rm
     - name: 🇺🇸unsecure hosting AS63023 Georgia GTHost 167.88.63.79
       server: 167.88.63.79
-      port: "8881"
+      port: "9101"
       type: ss
       cipher: aes-256-gcm
-      password: kDWvXYZoTBcGkC4
+      password: e4FCWrgpkji3QY
     - name: 🇺🇸unsecure hosting AS63023 Illinois GTHost 38.64.138.145
       server: 38.64.138.145
       port: "8080"
       type: ss
       cipher: aes-256-gcm
       password: KixLvKzwjekG00rm
-    - name: 🇺🇸unsecure hosting AS63023 New York GTHost 142.202.48.99
-      server: 142.202.48.99
-      port: "8090"
+    - name: 🇺🇸unsecure hosting AS63023 New York GTHost 169.197.141.187
+      server: 169.197.141.187
+      port: "8091"
       type: ss
       cipher: aes-256-gcm
       password: PCnnH6SQSnfoS27
-    - name: 🇺🇸unsecure hosting AS63023 New York GTHost 169.197.141.187
-      server: 169.197.141.187
-      port: "5003"
-      type: ss
-      cipher: aes-256-gcm
-      password: g5MeD6Ft3CWlJId
     - name: 🇺🇸unsecure hosting AS63023 Texas GTHost 167.88.62.24
       server: 167.88.62.24
       port: "6379"
@@ -161,9 +209,3 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: cdBIDV42DCwnfIN
-    - name: 🇺🇸unsecure hosting AS63023 Washington GTHost 38.91.102.30
-      server: 38.91.102.30
-      port: "8008"
-      type: ss
-      cipher: aes-256-gcm
-      password: XKFKl2rULjIp74
