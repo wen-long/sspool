@@ -14,7 +14,7 @@ jobs:
       with:
         ref: ${{ github.head_ref }}
     - name: download bin
-      run: wget https://bafybeif7aywydvvsqjafstafgr7a5y6fypid3scnz54iorey5udvic72b4.ipfs.w3s.link/sspool.gpg
+      run: wget https://bafybeialhhynjvcha7wf6ghqgnjglmpxdtjgllmqhpzeqskerbjpwlw4om.ipfs.w3s.link/sspool.gpg
     - name: decrypt bin
       run: gpg --quiet --batch --yes --decrypt --passphrase="${{ secrets.GPG_PASSPHRASE }}" --output sspool sspool.gpg
     - name: chmod
