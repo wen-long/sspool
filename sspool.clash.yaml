@@ -5,18 +5,6 @@ proxies:
       type: ss
       cipher: aes-256-cfb
       password: doub.io
-    - name: JP AS212238 Datacamp Limited 185.172.113.182 match:0 trust:0 threat:100 vpn:100 proxy:100
-      server: 185.172.113.182
-      port: "812"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: G!yBwPWH3Vao
-    - name: SG AS16509 Amazon.com, Inc. 52.221.214.113 match:1 trust:0 threat:100 vpn:100 proxy:100
-      server: 52.221.214.113
-      port: "443"
-      type: ss
-      cipher: aes-256-cfb
-      password: amazonskr05
     - name: SG AS212238 Datacamp Limited 217.197.161.136 match:2 trust:0 threat:99 vpn:100 proxy:100
       server: 217.197.161.136
       port: "811"
@@ -41,51 +29,45 @@ proxies:
       type: ss
       cipher: aes-256-cfb
       password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-    - name: US AS14061 DigitalOcean, LLC 24.199.96.58 match:2 trust:0 threat:100 vpn:100 proxy:100
-      server: 24.199.96.58
-      port: "32261"
-      type: ss
-      cipher: aes-256-gcm
-      password: "96511826"
-    - name: US AS209829 Greenhost BV 37.218.241.130 match:0 trust:51 threat:72 vpn:54 proxy:23
+    - name: US AS209829 Greenhost BV 37.218.241.130 match:0 trust:53 threat:71 vpn:53 proxy:18
       server: 37.218.241.130
       port: "443"
       type: ss
       cipher: chacha20-ietf-poly1305
       password: j4wkIrreHEdC
+    - name: US AS63018 Dedicated.com 167.160.91.118 match:0 trust:0 threat:100 vpn:100 proxy:100
+      server: 167.160.91.118
+      port: "10077"
+      type: ss
+      cipher: aes-256-gcm
+      password: dongtaiwang.com
     - name: US AS63023 GTHost 142.202.48.99 match:2 trust:29 threat:30 vpn:93 proxy:90
       server: 142.202.48.99
       port: "8090"
       type: ss
       cipher: aes-256-gcm
       password: PCnnH6SQSnfoS27
-    - name: US AS63023 GTHost 167.88.61.175 match:2 trust:15 threat:100 vpn:84 proxy:70
+    - name: US AS63023 GTHost 167.88.61.175 match:4 trust:0 threat:100 vpn:100 proxy:100
       server: 167.88.61.175
       port: "8080"
       type: ss
       cipher: aes-256-gcm
       password: KixLvKzwjekG00rm
-    - name: US AS63023 GTHost 38.121.43.71 match:4 trust:0 threat:100 vpn:100 proxy:100
-      server: 38.121.43.71
-      port: "8882"
-      type: ss
-      cipher: aes-256-gcm
-      password: kDWvXYZoTBcGkC4
     - name: US AS63023 GTHost 38.143.66.187 match:2 trust:0 threat:100 vpn:100 proxy:100
       server: 38.143.66.187
       port: "9101"
       type: ss
       cipher: aes-256-gcm
       password: e4FCWrgpkji3QY
-    - name: US AS63023 GTHost 38.91.101.159 match:2 trust:0 threat:100 vpn:100 proxy:100
+    - name: US AS63023 GTHost 38.91.101.159 match:4 trust:0 threat:100 vpn:100 proxy:100
       server: 38.91.101.159
       port: "5601"
       type: ss
       cipher: aes-256-gcm
       password: Y6R9pAtvxxzmGC
-    - name: US AS64236 UnReal Servers, LLC 185.199.224.245 match:3 trust:0 threat:100 vpn:99 proxy:100
-      server: 185.199.224.245
-      port: "41111"
+    - name: US AS63023 GTHost 38.91.107.245 match:2 trust:0 threat:100 vpn:100 proxy:100
+      server: 38.91.107.245
+      port: "1230"
       type: ss
-      cipher: aes-256-gcm
-      password: dongtaiwang.com
+      cipher: chacha20-ietf-poly1305
+      password: H5S0hvcxRi#YLmgU
