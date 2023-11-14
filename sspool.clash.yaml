@@ -5,43 +5,37 @@ proxies:
       type: ss
       cipher: aes-256-cfb
       password: doub.io
-    - name: JP AS212238 Datacamp Limited 185.172.113.182 match:0 trust:1 threat:98 vpn:100 proxy:100
+    - name: JP AS212238 Datacamp Limited 185.172.113.182 match:0 trust:1 threat:99 vpn:100 proxy:100
       server: 185.172.113.182
       port: "812"
       type: ss
       cipher: chacha20-ietf-poly1305
       password: G!yBwPWH3Vao
-    - name: NL AS63023 GTHost 172.99.188.99 match:2 trust:31 threat:28 vpn:92 proxy:87
+    - name: NL AS63023 GTHost 172.99.188.99 match:2 trust:31 threat:28 vpn:91 proxy:87
       server: 172.99.188.99
       port: "8888"
       type: ss
       cipher: aes-256-gcm
       password: Y6R9pAtvxxzmGC
-    - name: SG AS63949 Akamai Connected Cloud 139.162.41.174 match:1 trust:0 threat:100 vpn:100 proxy:100
+    - name: SG AS63949 Akamai Connected Cloud 139.162.41.174 match:4 trust:0 threat:100 vpn:100 proxy:100
       server: 139.162.41.174
       port: "8099"
       type: ss
       cipher: aes-256-cfb
       password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-    - name: SG AS63949 Akamai Connected Cloud 139.162.5.19 match:3 trust:0 threat:100 vpn:100 proxy:100
+    - name: SG AS63949 Akamai Connected Cloud 139.162.5.19 match:4 trust:0 threat:100 vpn:100 proxy:100
       server: 139.162.5.19
       port: "8099"
       type: ss
       cipher: aes-256-cfb
       password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-    - name: US AS63023 GTHost 142.202.48.7 match:2 trust:31 threat:28 vpn:92 proxy:87
-      server: 142.202.48.7
-      port: "3389"
-      type: ss
-      cipher: aes-256-gcm
-      password: Y6R9pAtvxxzmGC
-    - name: US AS63023 GTHost 142.202.48.99 match:2 trust:31 threat:28 vpn:92 proxy:87
+    - name: US AS63023 GTHost 142.202.48.99 match:2 trust:31 threat:28 vpn:91 proxy:87
       server: 142.202.48.99
       port: "8090"
       type: ss
       cipher: aes-256-gcm
       password: PCnnH6SQSnfoS27
-    - name: US AS63023 GTHost 167.88.61.175 match:2 trust:31 threat:28 vpn:92 proxy:87
+    - name: US AS63023 GTHost 167.88.61.175 match:3 trust:60 threat:95 vpn:10 proxy:14
       server: 167.88.61.175
       port: "8080"
       type: ss
