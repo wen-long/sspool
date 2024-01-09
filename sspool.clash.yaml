@@ -1,17 +1,11 @@
 proxies:
-    - name: JP AS16509 Amazon.com, Inc. 13.230.132.209 match:1 trust:0 threat:100 vpn:100 proxy:100
-      server: 13.230.132.209
-      port: "443"
-      type: ss
-      cipher: aes-256-cfb
-      password: amazonskr05
     - name: JP AS16509 Amazon.com, Inc. 52.194.252.137 match:1 trust:0 threat:100 vpn:100 proxy:100
       server: 52.194.252.137
       port: "443"
       type: ss
       cipher: aes-256-cfb
       password: amazonskr05
-    - name: JP AS212238 Datacamp Limited 185.172.113.182 match:0 trust:1 threat:98 vpn:99 proxy:100
+    - name: JP AS212238 Datacamp Limited 185.172.113.182 match:0 trust:1 threat:98 vpn:100 proxy:100
       server: 185.172.113.182
       port: "812"
       type: ss
@@ -25,6 +19,12 @@ proxies:
       password: verRi65HGFTh76sGesh
     - name: SG AS16509 Amazon.com, Inc. 13.212.204.117 match:0 trust:0 threat:100 vpn:100 proxy:100
       server: 13.212.204.117
+      port: "443"
+      type: ss
+      cipher: aes-256-cfb
+      password: amazonskr05
+    - name: SG AS16509 Amazon.com, Inc. 13.250.55.22 match:1 trust:0 threat:100 vpn:100 proxy:100
+      server: 13.250.55.22
       port: "443"
       type: ss
       cipher: aes-256-cfb
@@ -47,24 +47,42 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: wwq6Xo5gJ8
-    - name: US AS63023 GTHost 142.202.48.43 match:2 trust:29 threat:30 vpn:94 proxy:90
+    - name: US AS138915 Kaopu Cloud HK Limited 38.54.108.222 match:2 trust:0 threat:100 vpn:100 proxy:100
+      server: 38.54.108.222
+      port: "8119"
+      type: ss
+      cipher: aes-256-gcm
+      password: cdBIDV42DCwnfIN
+    - name: US AS14061 DigitalOcean, LLC 24.199.103.101 match:2 trust:0 threat:100 vpn:100 proxy:100
+      server: 24.199.103.101
+      port: "35678"
+      type: ss
+      cipher: aes-256-gcm
+      password: DuE6Gplaap
+    - name: US AS63023 GTHost 142.202.48.43 match:2 trust:29 threat:31 vpn:94 proxy:90
       server: 142.202.48.43
       port: "8090"
       type: ss
       cipher: aes-256-gcm
       password: PCnnH6SQSnfoS27
-    - name: US AS63023 GTHost 142.202.48.99 match:2 trust:29 threat:30 vpn:94 proxy:90
+    - name: US AS63023 GTHost 142.202.48.99 match:2 trust:29 threat:31 vpn:94 proxy:90
       server: 142.202.48.99
       port: "8091"
       type: ss
       cipher: aes-256-gcm
       password: PCnnH6SQSnfoS27
-    - name: US AS63023 GTHost 167.88.61.175 match:2 trust:22 threat:100 vpn:64 proxy:71
+    - name: US AS63023 GTHost 167.88.61.175 match:4 trust:0 threat:100 vpn:100 proxy:100
       server: 167.88.61.175
       port: "9102"
       type: ss
       cipher: aes-256-gcm
       password: e4FCWrgpkji3QY
+    - name: US AS63023 GTHost 169.197.141.186 match:2 trust:29 threat:31 vpn:94 proxy:90
+      server: 169.197.141.186
+      port: "801"
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: tvX1v#NSFP_LG_bJ
     - name: US AS63023 GTHost 38.114.114.143 match:2 trust:0 threat:100 vpn:100 proxy:100
       server: 38.114.114.143
       port: "4444"
@@ -107,6 +125,12 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: e4FCWrgpkji3QY
+    - name: US AS63023 GTHost 38.68.134.202 match:2 trust:0 threat:100 vpn:100 proxy:100
+      server: 38.68.134.202
+      port: "8091"
+      type: ss
+      cipher: aes-256-gcm
+      password: PCnnH6SQSnfoS27
     - name: US AS63023 GTHost 38.68.134.69 match:2 trust:0 threat:100 vpn:100 proxy:100
       server: 38.68.134.69
       port: "8091"
