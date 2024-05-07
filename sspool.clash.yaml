@@ -1,17 +1,17 @@
 proxies:
-    - name: DE AS44066 firstcolo GmbH 159.100.14.58 match:0 trust:0 threat:99 vpn:100 proxy:99
-      server: 159.100.14.58
-      port: "443"
+    - name: DE AS44477 STARK INDUSTRIES SOLUTIONS LTD 80.92.204.106 match:2 trust:0 threat:100 vpn:100 proxy:100
+      server: 80.92.204.106
+      port: "9094"
       type: ss
-      cipher: chacha20-ietf-poly1305
-      password: g4DMRntqJQ6ek0jffXwyby
-    - name: SG AS8849 Melbikomas UAB 103.172.116.103 match:0 trust:0 threat:100 vpn:100 proxy:100
+      cipher: aes-256-cfb
+      password: rpgbNnU9rDDU4aWZ
+    - name: SG AS8849 Melbikomas UAB 103.172.116.103 match:2 trust:0 threat:100 vpn:100 proxy:100
       server: 103.172.116.103
       port: "9098"
       type: ss
       cipher: aes-256-cfb
       password: aLpQtfEZe445QyHk
-    - name: SG AS8849 Melbikomas UAB 103.172.116.79 match:4 trust:0 threat:100 vpn:100 proxy:100
+    - name: SG AS8849 Melbikomas UAB 103.172.116.79 match:2 trust:0 threat:100 vpn:100 proxy:100
       server: 103.172.116.79
       port: "9097"
       type: ss
@@ -25,17 +25,23 @@ proxies:
       password: aLpQtfEZe445QyHk
     - name: SG AS8849 Melbikomas UAB 103.172.116.94 match:2 trust:0 threat:100 vpn:100 proxy:100
       server: 103.172.116.94
-      port: "9093"
+      port: "9094"
       type: ss
       cipher: aes-256-cfb
-      password: wfLC2y7rzZyCmuyt
-    - name: US AS212238 Datacamp Limited 212.102.47.198 match:0 trust:2 threat:99 vpn:97 proxy:97
+      password: rpgbNnU9rDDU4aWZ
+    - name: US AS212238 Datacamp Limited 212.102.47.198 match:4 trust:0 threat:100 vpn:100 proxy:100
       server: 212.102.47.198
       port: "443"
       type: ss
       cipher: aes-128-cfb
       password: shadowsocks
-    - name: US AS63023 GTHost 142.202.48.43 match:2 trust:22 threat:44 vpn:96 proxy:95
+    - name: US AS31898 Oracle Corporation 129.146.102.22 match:2 trust:0 threat:100 vpn:100 proxy:100
+      server: 129.146.102.22
+      port: "34017"
+      type: ss
+      cipher: aes-256-gcm
+      password: N0k6tSWblI
+    - name: US AS63023 GTHost 142.202.48.43 match:2 trust:27 threat:35 vpn:92 proxy:92
       server: 142.202.48.43
       port: "8090"
       type: ss
@@ -47,19 +53,19 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: PCnnH6SQSnfoS27
-    - name: US AS63023 GTHost 167.88.61.175 match:4 trust:0 threat:100 vpn:100 proxy:100
+    - name: US AS63023 GTHost 167.88.61.175 match:2 trust:27 threat:35 vpn:92 proxy:92
       server: 167.88.61.175
       port: "8888"
       type: ss
       cipher: aes-256-gcm
       password: Y6R9pAtvxxzmGC
-    - name: US AS63023 GTHost 167.88.62.62 match:2 trust:22 threat:44 vpn:96 proxy:95
+    - name: US AS63023 GTHost 167.88.62.62 match:2 trust:27 threat:35 vpn:92 proxy:92
       server: 167.88.62.62
       port: "8080"
       type: ss
       cipher: aes-256-gcm
       password: KixLvKzwjekG00rm
-    - name: US AS63023 GTHost 169.197.142.216 match:4 trust:0 threat:100 vpn:100 proxy:100
+    - name: US AS63023 GTHost 169.197.142.216 match:2 trust:27 threat:35 vpn:92 proxy:92
       server: 169.197.142.216
       port: "7002"
       type: ss
@@ -83,7 +89,7 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: Y6R9pAtvxxzmGC
-    - name: US AS63023 GTHost 38.121.43.71 match:4 trust:0 threat:100 vpn:100 proxy:100
+    - name: US AS63023 GTHost 38.121.43.71 match:5 trust:0 threat:100 vpn:100 proxy:100
       server: 38.121.43.71
       port: "8882"
       type: ss
@@ -137,7 +143,7 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: faBAoD54k87UJG7
-    - name: US AS63023 GTHost 38.75.137.42 match:5 trust:0 threat:100 vpn:100 proxy:100
+    - name: US AS63023 GTHost 38.75.137.42 match:6 trust:0 threat:100 vpn:100 proxy:100
       server: 38.75.137.42
       port: "8882"
       type: ss
@@ -149,7 +155,7 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: PCnnH6SQSnfoS27
-    - name: US AS63023 GTHost 38.75.137.93 match:4 trust:0 threat:100 vpn:100 proxy:100
+    - name: US AS63023 GTHost 38.75.137.93 match:2 trust:0 threat:100 vpn:100 proxy:100
       server: 38.75.137.93
       port: "9102"
       type: ss
