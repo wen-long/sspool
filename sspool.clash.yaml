@@ -41,12 +41,6 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf
-    - name: NL AS62005 BlueVPS OU 213.109.147.242 match:2 trust:18 threat:50 vpn:96 proxy:100
-      server: 213.109.147.242
-      port: "62685"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: VpKABcOpNNA0l5G2AVOmw8
     - name: US AS142111 Zhejiang Aiyun Network Technology Co Ltd 2.58.87.221 match:2 trust:10 threat:93 vpn:76 proxy:100
       server: 2.58.87.221
       port: "16899"
@@ -71,12 +65,12 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: lGqs95QkFHo2NV
-    - name: US AS20473 The Constant Company, LLC 144.202.112.106 match:2 trust:0 threat:100 vpn:100 proxy:100
-      server: 144.202.112.106
-      port: "3913"
+    - name: US AS204154 FIRST SERVER LIMITED 185.172.129.91 match:0 trust:12 threat:99 vpn:93 proxy:72
+      server: 185.172.129.91
+      port: "56220"
       type: ss
       cipher: chacha20-ietf-poly1305
-      password: 76dze09gQEvqS_jOuo
+      password: LLInmUBrxMgEn85Y6vVjeH
     - name: US AS20473 The Constant Company, LLC 207.246.101.50 match:1 trust:0 threat:100 vpn:100 proxy:100
       server: 207.246.101.50
       port: "1633"
@@ -95,6 +89,12 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: Mju3ZSaa4QVk45mc
+    - name: US AS44477 STARK INDUSTRIES SOLUTIONS LTD 94.131.123.147 match:0 trust:5 threat:87 vpn:99 proxy:100
+      server: 94.131.123.147
+      port: "7383"
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: eSHEdJz96rqNkOCAzd5Csv
     - name: US AS60068 Datacamp Limited 156.146.38.167 match:2 trust:0 threat:100 vpn:100 proxy:100
       server: 156.146.38.167
       port: "443"
@@ -317,20 +317,8 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: e4FCWrgpkji3QY
-    - name: US AS63023 GTHost 38.75.136.108 match:2 trust:0 threat:99 vpn:100 proxy:100
-      server: 38.75.136.108
-      port: "8881"
-      type: ss
-      cipher: aes-256-gcm
-      password: kDWvXYZoTBcGkC4
     - name: US AS63023 GTHost 38.75.136.21 match:0 trust:3 threat:94 vpn:96 proxy:100
       server: 38.75.136.21
-      port: "8882"
-      type: ss
-      cipher: aes-256-gcm
-      password: kDWvXYZoTBcGkC4
-    - name: US AS63023 GTHost 38.75.136.33 match:2 trust:0 threat:99 vpn:100 proxy:100
-      server: 38.75.136.33
       port: "8882"
       type: ss
       cipher: aes-256-gcm
@@ -341,18 +329,6 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: FoOiGlkAA9yPEGP
-    - name: US AS63023 GTHost 38.75.137.105 match:2 trust:0 threat:99 vpn:100 proxy:100
-      server: 38.75.137.105
-      port: "8119"
-      type: ss
-      cipher: aes-256-gcm
-      password: cdBIDV42DCwnfIN
-    - name: US AS63023 GTHost 38.75.137.71 match:2 trust:0 threat:99 vpn:100 proxy:100
-      server: 38.75.137.71
-      port: "8091"
-      type: ss
-      cipher: aes-256-gcm
-      password: PCnnH6SQSnfoS27
     - name: US AS63023 GTHost 38.86.135.117 match:2 trust:0 threat:99 vpn:100 proxy:100
       server: 38.86.135.117
       port: "9101"
@@ -419,9 +395,3 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: iUB0923RBA
-    - name: US AS6405 American Information Network 205.134.180.150 match:3 trust:0 threat:100 vpn:100 proxy:100
-      server: 205.134.180.150
-      port: "443"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: 5cp9Z3iWnJZ2
