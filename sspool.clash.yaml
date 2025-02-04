@@ -1,10 +1,16 @@
 proxies:
-    - name: NL AS12876 SCALEWAY S.A.S. 51.15.27.48 match:3 trust:0 threat:100 vpn:100 proxy:100
-      server: 51.15.27.48
-      port: "989"
+    - name: DE AS44477 STARK INDUSTRIES SOLUTIONS LTD 80.92.204.106 match:3 trust:0 threat:100 vpn:100 proxy:100
+      server: 80.92.204.106
+      port: "9098"
       type: ss
       cipher: aes-256-cfb
-      password: f8f7aCzcPKbsF8p3
+      password: aLpQtfEZe445QyHk
+    - name: NL AS152460 Greenhost BV 103.104.247.47 match:0 trust:37 threat:91 vpn:48 proxy:49
+      server: 103.104.247.47
+      port: "8080"
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: oZIoA69Q8yhcQV8ka3Pa3A
     - name: NL AS47172 Greenhost BV 193.29.139.138 match:0 trust:58 threat:91 vpn:23 proxy:13
       server: 193.29.139.138
       port: "8080"
@@ -17,48 +23,54 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: cvII85TrW6n0OGyfpHVS1u
-    - name: NL AS47172 Greenhost BV 193.29.139.202 match:0 trust:58 threat:91 vpn:23 proxy:13
-      server: 193.29.139.202
+    - name: NL AS47172 Greenhost BV 193.29.139.189 match:0 trust:58 threat:91 vpn:23 proxy:13
+      server: 193.29.139.189
       port: "8080"
       type: ss
       cipher: chacha20-ietf-poly1305
-      password: oZIoA69Q8yhcQV8ka3Pa3A
+      password: cvII85TrW6n0OGyfpHVS1u
     - name: NL AS47172 Greenhost BV 193.29.139.251 match:0 trust:58 threat:91 vpn:23 proxy:13
       server: 193.29.139.251
       port: "8080"
       type: ss
       cipher: chacha20-ietf-poly1305
       password: oZIoA69Q8yhcQV8ka3Pa3A
-    - name: NL AS57043 HOSTKEY B.V. 208.67.105.87 match:0 trust:1 threat:100 vpn:97 proxy:100
-      server: 208.67.105.87
-      port: "42501"
+    - name: NL AS57043 HOSTKEY B.V. 208.67.105.196 match:0 trust:1 threat:100 vpn:97 proxy:100
+      server: 208.67.105.196
+      port: "42029"
       type: ss
       cipher: chacha20-ietf-poly1305
-      password: nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf
-    - name: NL AS62005 BlueVPS OU 213.109.147.242 match:2 trust:18 threat:50 vpn:96 proxy:100
-      server: 213.109.147.242
-      port: "62685"
+      password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD
+    - name: TW AS9678 HostingInside LTD. 2.58.241.42 match:2 trust:0 threat:100 vpn:100 proxy:100
+      server: 2.58.241.42
+      port: "443"
       type: ss
       cipher: chacha20-ietf-poly1305
-      password: VpKABcOpNNA0l5G2AVOmw8
-    - name: US AS16276 OVH SAS 15.204.87.215 match:2 trust:0 threat:100 vpn:100 proxy:100
-      server: 15.204.87.215
-      port: "8882"
+      password: 2afbc97400ca71c8f3306f9843a6e1c2
+    - name: US AS142111 Zhejiang Aiyun Network Technology Co Ltd 2.58.87.221 match:2 trust:10 threat:93 vpn:76 proxy:100
+      server: 2.58.87.221
+      port: "16899"
       type: ss
-      cipher: aes-256-gcm
-      password: kDWvXYZoTBcGkC4
-    - name: US AS16276 OVH SAS 15.204.87.217 match:2 trust:0 threat:100 vpn:100 proxy:100
-      server: 15.204.87.217
-      port: "6697"
+      cipher: aes-128-gcm
+      password: Yc2CtrIz8L
+    - name: US AS20473 The Constant Company, LLC 207.246.101.50 match:1 trust:0 threat:100 vpn:100 proxy:100
+      server: 207.246.101.50
+      port: "1633"
       type: ss
-      cipher: aes-256-gcm
-      password: TEzjfAYq2IjtuoS
+      cipher: chacha20-ietf-poly1305
+      password: o_A7inN1yqeWtOTL
     - name: US AS212238 Datacamp Limited 212.102.47.130 match:2 trust:0 threat:100 vpn:100 proxy:100
       server: 212.102.47.130
       port: "443"
       type: ss
       cipher: aes-128-gcm
       password: shadowsocks
+    - name: US AS44477 STARK INDUSTRIES SOLUTIONS LTD 94.131.123.147 match:0 trust:5 threat:87 vpn:99 proxy:100
+      server: 94.131.123.147
+      port: "7383"
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: eSHEdJz96rqNkOCAzd5Csv
     - name: US AS60068 Datacamp Limited 156.146.38.167 match:2 trust:0 threat:100 vpn:100 proxy:100
       server: 156.146.38.167
       port: "443"
@@ -71,12 +83,6 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: KixLvKzwjekG00rm
-    - name: US AS63023 GTHost 142.202.49.122 match:2 trust:23 threat:40 vpn:93 proxy:97
-      server: 142.202.49.122
-      port: "9102"
-      type: ss
-      cipher: aes-256-gcm
-      password: e4FCWrgpkji3QY
     - name: US AS63023 GTHost 142.202.49.84 match:2 trust:23 threat:40 vpn:93 proxy:97
       server: 142.202.49.84
       port: "8090"
@@ -89,12 +95,6 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: e4FCWrgpkji3QY
-    - name: US AS63023 GTHost 169.197.142.120 match:2 trust:23 threat:40 vpn:93 proxy:97
-      server: 169.197.142.120
-      port: "8888"
-      type: ss
-      cipher: aes-256-gcm
-      password: Y6R9pAtvxxzmGC
     - name: US AS63023 GTHost 169.197.142.216 match:2 trust:23 threat:40 vpn:93 proxy:97
       server: 169.197.142.216
       port: "6697"
@@ -125,6 +125,12 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: e4FCWrgpkji3QY
+    - name: US AS63023 GTHost 23.157.40.119 match:2 trust:23 threat:40 vpn:93 proxy:97
+      server: 23.157.40.119
+      port: "5601"
+      type: ss
+      cipher: aes-256-gcm
+      password: Y6R9pAtvxxzmGC
     - name: US AS63023 GTHost 23.157.40.120 match:2 trust:23 threat:40 vpn:93 proxy:97
       server: 23.157.40.120
       port: "9101"
@@ -145,7 +151,7 @@ proxies:
       password: e4FCWrgpkji3QY
     - name: US AS63023 GTHost 23.157.40.95 match:2 trust:23 threat:40 vpn:93 proxy:97
       server: 23.157.40.95
-      port: "8881"
+      port: "8882"
       type: ss
       cipher: aes-256-gcm
       password: kDWvXYZoTBcGkC4
@@ -155,6 +161,12 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: Y6R9pAtvxxzmGC
+    - name: US AS63023 GTHost 38.110.1.122 match:2 trust:0 threat:99 vpn:100 proxy:100
+      server: 38.110.1.122
+      port: "8090"
+      type: ss
+      cipher: aes-256-gcm
+      password: PCnnH6SQSnfoS27
     - name: US AS63023 GTHost 38.110.1.3 match:2 trust:0 threat:99 vpn:100 proxy:100
       server: 38.110.1.3
       port: "5601"
