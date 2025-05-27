@@ -1,28 +1,16 @@
 proxies:
-    - name: DE AS215540 GLOBAL CONNECTIVITY SOLUTIONS LLP 85.208.139.69 match:0 trust:2 threat:95 vpn:99 proxy:100
-      server: 85.208.139.69
-      port: "63861"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: PBrts5Au4GM9ar7bTNyZEu
     - name: DE AS44477 STARK INDUSTRIES SOLUTIONS LTD 80.92.204.106 match:5 trust:0 threat:100 vpn:100 proxy:100
       server: 80.92.204.106
-      port: "9064"
+      port: "9097"
       type: ss
       cipher: aes-256-cfb
-      password: cp8pRSUAyLhTfVWH
+      password: Sn5B7jTqr76aCJT8
     - name: JP AS63949 Akamai Connected Cloud 139.162.106.142 match:3 trust:0 threat:100 vpn:100 proxy:100
       server: 139.162.106.142
       port: "11359"
       type: ss
       cipher: aes-256-gcm
       password: tVPVlUgQhj9i7vHOHij3daCJEUZxctEQ9xoj0WT5A8w=
-    - name: NL AS152460 Greenhost BV 103.104.247.47 match:2 trust:1 threat:97 vpn:99 proxy:100
-      server: 103.104.247.47
-      port: "8080"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: oZIoA69Q8yhcQV8ka3Pa3A
     - name: NL AS152460 Greenhost BV 103.104.247.49 match:2 trust:1 threat:97 vpn:99 proxy:100
       server: 103.104.247.49
       port: "8080"
@@ -41,6 +29,12 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: cvII85TrW6n0OGyfpHVS1u
+    - name: NL AS47172 Greenhost BV 193.29.139.202 match:0 trust:32 threat:79 vpn:94 proxy:29
+      server: 193.29.139.202
+      port: "8080"
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: oZIoA69Q8yhcQV8ka3Pa3A
     - name: NL AS47172 Greenhost BV 193.29.139.251 match:0 trust:32 threat:79 vpn:94 proxy:29
       server: 193.29.139.251
       port: "8080"
@@ -65,12 +59,6 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: VpKABcOpNNA0l5G2AVOmw8
-    - name: US AS212238 Datacamp Limited 212.102.47.130 match:2 trust:0 threat:100 vpn:100 proxy:100
-      server: 212.102.47.130
-      port: "443"
-      type: ss
-      cipher: aes-128-gcm
-      password: shadowsocks
     - name: US AS60068 Datacamp Limited 156.146.38.167 match:0 trust:14 threat:100 vpn:100 proxy:57
       server: 156.146.38.167
       port: "443"
@@ -95,6 +83,12 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: Y6R9pAtvxxzmGC
+    - name: US AS63023 GTHost 23.154.136.148 match:2 trust:2 threat:96 vpn:100 proxy:99
+      server: 23.154.136.148
+      port: "6679"
+      type: ss
+      cipher: aes-256-gcm
+      password: TEzjfAYq2IjtuoS
     - name: US AS63023 GTHost 23.154.136.51 match:2 trust:2 threat:96 vpn:100 proxy:99
       server: 23.154.136.51
       port: "8888"
@@ -107,6 +101,12 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: RexnBgU7EV5ADxG
+    - name: US AS63023 GTHost 38.121.43.6 match:4 trust:0 threat:100 vpn:100 proxy:100
+      server: 38.121.43.6
+      port: "8008"
+      type: ss
+      cipher: aes-256-gcm
+      password: XKFKl2rULjIp74
     - name: US AS63023 GTHost 38.121.43.71 match:4 trust:0 threat:100 vpn:100 proxy:100
       server: 38.121.43.71
       port: "9102"
@@ -121,6 +121,18 @@ proxies:
       password: cdBIDV42DCwnfIN
     - name: US AS63023 GTHost 38.143.66.87 match:2 trust:2 threat:95 vpn:100 proxy:100
       server: 38.143.66.87
+      port: "9102"
+      type: ss
+      cipher: aes-256-gcm
+      password: e4FCWrgpkji3QY
+    - name: US AS63023 GTHost 38.68.134.202 match:2 trust:2 threat:95 vpn:100 proxy:100
+      server: 38.68.134.202
+      port: "5004"
+      type: ss
+      cipher: aes-256-gcm
+      password: g5MeD6Ft3CWlJId
+    - name: US AS63023 GTHost 38.68.135.18 match:2 trust:2 threat:95 vpn:100 proxy:100
+      server: 38.68.135.18
       port: "9102"
       type: ss
       cipher: aes-256-gcm
