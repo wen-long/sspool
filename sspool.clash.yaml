@@ -35,12 +35,6 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: VpKABcOpNNA0l5G2AVOmw8
-    - name: SG AS14061 DigitalOcean, LLC 167.71.205.112 match:0 trust:0 threat:100 vpn:100 proxy:100
-      server: 167.71.205.112
-      port: "80"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: GjUtzQIjhyYSzhdN2ZMRft
     - name: US AS60068 Datacamp Limited 156.146.38.167 match:2 trust:2 threat:100 vpn:100 proxy:95
       server: 156.146.38.167
       port: "443"
