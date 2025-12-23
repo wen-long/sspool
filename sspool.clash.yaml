@@ -1,23 +1,23 @@
 proxies:
-    - name: NL AS47172 Greenhost BV 193.29.139.179 match:6 trust:16 threat:100 vpn:100 proxy:53
+    - name: NL AS209847 WorkTitans B.V. 178.23.190.238 match:2 trust:33 threat:100 vpn:100 proxy:0
+      server: 178.23.190.238
+      port: "443"
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh
+    - name: NL AS47172 Greenhost BV 193.29.139.179 match:6 trust:15 threat:100 vpn:100 proxy:54
       server: 193.29.139.179
       port: "8080"
       type: ss
       cipher: chacha20-ietf-poly1305
       password: cvII85TrW6n0OGyfpHVS1u
-    - name: NL AS47172 Greenhost BV 193.29.139.189 match:3 trust:33 threat:100 vpn:100 proxy:1
-      server: 193.29.139.189
-      port: "8080"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: cvII85TrW6n0OGyfpHVS1u
-    - name: NL AS47172 Greenhost BV 193.29.139.202 match:5 trust:16 threat:100 vpn:100 proxy:53
+    - name: NL AS47172 Greenhost BV 193.29.139.202 match:5 trust:15 threat:100 vpn:100 proxy:54
       server: 193.29.139.202
       port: "8080"
       type: ss
       cipher: chacha20-ietf-poly1305
       password: oZIoA69Q8yhcQV8ka3Pa3A
-    - name: NL AS47172 Greenhost BV 193.29.139.227 match:5 trust:16 threat:100 vpn:100 proxy:53
+    - name: NL AS47172 Greenhost BV 193.29.139.227 match:5 trust:15 threat:100 vpn:100 proxy:54
       server: 193.29.139.227
       port: "8080"
       type: ss
@@ -29,13 +29,7 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: oZIoA69Q8yhcQV8ka3Pa3A
-    - name: NL AS57043 HOSTKEY B.V. 208.67.105.196 match:3 trust:33 threat:100 vpn:100 proxy:1
-      server: 208.67.105.196
-      port: "42029"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD
-    - name: NL AS62005 BlueVPS OU 213.109.147.242 match:5 trust:16 threat:100 vpn:100 proxy:53
+    - name: NL AS62005 BlueVPS OU 213.109.147.242 match:5 trust:15 threat:100 vpn:100 proxy:54
       server: 213.109.147.242
       port: "62685"
       type: ss
@@ -47,15 +41,9 @@ proxies:
       type: ss
       cipher: aes-128-gcm
       password: shadowsocks
-    - name: US AS60068 Datacamp Limited 156.146.38.170 match:5 trust:16 threat:100 vpn:100 proxy:53
+    - name: US AS60068 Datacamp Limited 156.146.38.170 match:5 trust:15 threat:100 vpn:100 proxy:54
       server: 156.146.38.170
       port: "443"
       type: ss
       cipher: aes-128-gcm
       password: shadowsocks
-    - name: US AS63018 Dedicated.com 104.192.226.106 match:3 trust:33 threat:100 vpn:100 proxy:1
-      server: 104.192.226.106
-      port: "990"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: f8f7aCzcPKbsF8p3
