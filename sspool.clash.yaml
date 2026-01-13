@@ -1,29 +1,29 @@
 proxies:
-    - name: NL AS209847 WorkTitans B.V. 178.23.190.238 match:2 trust:33 threat:100 vpn:100 proxy:0
+    - name: NL AS209847 WorkTitans B.V. 178.23.190.238 match:2 trust:41 threat:100 vpn:76 proxy:0
       server: 178.23.190.238
       port: "443"
       type: ss
       cipher: chacha20-ietf-poly1305
       password: uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh
-    - name: NL AS47172 Greenhost BV 193.29.139.141 match:5 trust:19 threat:100 vpn:100 proxy:42
+    - name: NL AS47172 Greenhost BV 193.29.139.141 match:5 trust:19 threat:100 vpn:100 proxy:44
       server: 193.29.139.141
       port: "8080"
       type: ss
       cipher: chacha20-ietf-poly1305
       password: oZIoA69Q8yhcQV8ka3Pa3A
-    - name: NL AS47172 Greenhost BV 193.29.139.179 match:6 trust:19 threat:100 vpn:100 proxy:42
+    - name: NL AS47172 Greenhost BV 193.29.139.179 match:6 trust:19 threat:100 vpn:100 proxy:44
       server: 193.29.139.179
       port: "8080"
       type: ss
       cipher: chacha20-ietf-poly1305
       password: cvII85TrW6n0OGyfpHVS1u
-    - name: NL AS47172 Greenhost BV 193.29.139.202 match:5 trust:19 threat:100 vpn:100 proxy:42
-      server: 193.29.139.202
+    - name: NL AS47172 Greenhost BV 193.29.139.189 match:3 trust:33 threat:100 vpn:100 proxy:1
+      server: 193.29.139.189
       port: "8080"
       type: ss
       cipher: chacha20-ietf-poly1305
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-    - name: NL AS47172 Greenhost BV 193.29.139.227 match:5 trust:19 threat:100 vpn:100 proxy:42
+      password: cvII85TrW6n0OGyfpHVS1u
+    - name: NL AS47172 Greenhost BV 193.29.139.227 match:5 trust:19 threat:100 vpn:100 proxy:44
       server: 193.29.139.227
       port: "8080"
       type: ss
@@ -35,7 +35,7 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: oZIoA69Q8yhcQV8ka3Pa3A
-    - name: NL AS62005 BlueVPS OU 213.109.147.242 match:5 trust:19 threat:100 vpn:100 proxy:42
+    - name: NL AS62005 BlueVPS OU 213.109.147.242 match:5 trust:19 threat:100 vpn:100 proxy:44
       server: 213.109.147.242
       port: "62685"
       type: ss
