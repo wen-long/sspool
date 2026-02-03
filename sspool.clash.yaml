@@ -1,18 +1,6 @@
 proxies:
-    - name: NL AS209847 WorkTitans B.V. 178.23.190.238 match:2 trust:39 threat:100 vpn:82 proxy:0
-      server: 178.23.190.238
-      port: "443"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh
     - name: NL AS47172 Greenhost BV 193.29.139.141 match:5 trust:19 threat:100 vpn:100 proxy:44
       server: 193.29.139.141
-      port: "8080"
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-    - name: NL AS47172 Greenhost BV 193.29.139.177 match:6 trust:19 threat:100 vpn:100 proxy:44
-      server: 193.29.139.177
       port: "8080"
       type: ss
       cipher: chacha20-ietf-poly1305
@@ -28,7 +16,7 @@ proxies:
       port: "8080"
       type: ss
       cipher: chacha20-ietf-poly1305
-      password: cvII85TrW6n0OGyfpHVS1u
+      password: QCXDxuDlTTMD7jtgHUjIoj
     - name: NL AS47172 Greenhost BV 193.29.139.202 match:6 trust:19 threat:100 vpn:100 proxy:44
       server: 193.29.139.202
       port: "8080"
@@ -53,12 +41,12 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: VpKABcOpNNA0l5G2AVOmw8
-    - name: US AS136258 BrainStorm Network, Inc 23.95.75.146 match:0 trust:100 threat:0 vpn:0 proxy:0
-      server: 23.95.75.146
-      port: "443"
+    - name: SG AS44259 Ultahost, Inc. 38.89.142.56 match:3 trust:33 threat:100 vpn:100 proxy:0
+      server: 38.89.142.56
+      port: "990"
       type: ss
       cipher: chacha20-ietf-poly1305
-      password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
     - name: US AS60068 Datacamp Limited 156.146.38.167 match:3 trust:33 threat:100 vpn:100 proxy:1
       server: 156.146.38.167
       port: "443"
